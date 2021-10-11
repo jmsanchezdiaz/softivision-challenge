@@ -1,0 +1,51 @@
+$mainColor: #0f0f0f;
+$secondaryColor: #07b12c;
+$otherColor: #ffff;
+
+.resetButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+.step {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid $secondaryColor;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &__title {
+    text-align: center;
+    align-self: center;
+    color: $otherColor;
+    border-bottom: 2px solid $secondaryColor;
+    display: inline-block;
+  }
+
+  &__add {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    color: $otherColor;
+    background: $secondaryColor;
+    border-radius: 0.5rem;
+    transition: background 500ms;
+    @extend .resetButton;
+
+    &:hover {
+      background: darken($secondaryColor, 15%);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .step {
+    height: 50%;
+  }
+}

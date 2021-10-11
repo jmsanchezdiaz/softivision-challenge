@@ -1,0 +1,45 @@
+$mainColor: #0f0f0f;
+$secondaryColor: #07b12c;
+$otherColor: #ffff;
+
+.resetButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  background: #fff;
+  gap: 2rem;
+  &__comments {
+    opacity: 0.5;
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+
+  &__controls {
+    display: flex;
+    gap: 0.25rem;
+    button {
+      color: $secondaryColor;
+      background: $mainColor;
+      padding: 0.5rem;
+      border-radius: 5px;
+      font-weight: 900;
+      @extend .resetButton;
+    }
+  }
+
+  &__info {
+    flex: 1;
+  }
+}
