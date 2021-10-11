@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/softvision-challenge/static/css/main.ed7ec20a.chunk.css",
-    "main.js": "/softvision-challenge/static/js/main.2ce0bda8.chunk.js",
-    "main.js.map": "/softvision-challenge/static/js/main.2ce0bda8.chunk.js.map",
+    "main.js": "/softvision-challenge/static/js/main.19abcdd2.chunk.js",
+    "main.js.map": "/softvision-challenge/static/js/main.19abcdd2.chunk.js.map",
     "runtime-main.js": "/softvision-challenge/static/js/runtime-main.df053fbb.js",
     "runtime-main.js.map": "/softvision-challenge/static/js/runtime-main.df053fbb.js.map",
-    "static/js/2.6f356b83.chunk.js": "/softvision-challenge/static/js/2.6f356b83.chunk.js",
-    "static/js/2.6f356b83.chunk.js.map": "/softvision-challenge/static/js/2.6f356b83.chunk.js.map",
+    "static/js/2.46d5b38e.chunk.js": "/softvision-challenge/static/js/2.46d5b38e.chunk.js",
+    "static/js/2.46d5b38e.chunk.js.map": "/softvision-challenge/static/js/2.46d5b38e.chunk.js.map",
     "index.html": "/softvision-challenge/index.html",
     "static/css/main.ed7ec20a.chunk.css.map": "/softvision-challenge/static/css/main.ed7ec20a.chunk.css.map",
-    "static/js/2.6f356b83.chunk.js.LICENSE.txt": "/softvision-challenge/static/js/2.6f356b83.chunk.js.LICENSE.txt"
+    "static/js/2.46d5b38e.chunk.js.LICENSE.txt": "/softvision-challenge/static/js/2.46d5b38e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.df053fbb.js",
-    "static/js/2.6f356b83.chunk.js",
+    "static/js/2.46d5b38e.chunk.js",
     "static/css/main.ed7ec20a.chunk.css",
-    "static/js/main.2ce0bda8.chunk.js"
+    "static/js/main.19abcdd2.chunk.js"
   ]
 }
