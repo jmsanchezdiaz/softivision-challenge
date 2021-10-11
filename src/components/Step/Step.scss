@@ -1,11 +1,17 @@
 $mainColor: #0f0f0f;
 $secondaryColor: #07b12c;
+
 $otherColor: #ffff;
 
 .resetButton {
   border: none;
-  background: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background 500ms;
   cursor: pointer;
+  margin: 0.25rem 0;
   &:focus {
     outline: none;
   }
@@ -29,15 +35,9 @@ $otherColor: #ffff;
   }
 
   &__add {
-    display: inline-block;
-    width: 100%;
-    padding: 0.5rem;
+    @extend .resetButton;
     color: $otherColor;
     background: $secondaryColor;
-    border-radius: 0.5rem;
-    transition: background 500ms;
-    @extend .resetButton;
-
     &:hover {
       background: darken($secondaryColor, 15%);
     }
@@ -46,6 +46,6 @@ $otherColor: #ffff;
 
 @media screen and (max-width: 768px) {
   .step {
-    height: 50%;
+    width: 100%;
   }
 }
