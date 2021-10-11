@@ -1,6 +1,7 @@
 import { useSpreadContext } from "../../customHooks/useSpreadContext";
 import { steps } from "../../steps/steps";
 import { Step } from "../Step/Step";
+import "./StepsList.scss";
 
 interface StepListProps {
   openModal: () => void;

@@ -19,11 +19,13 @@ $otherColor: #ffff;
   padding: 0 0.5rem;
   border-radius: 5px;
   background: #fff;
-  gap: 2rem;
+  gap: 1rem;
   &__comments {
     opacity: 0.5;
     font-style: italic;
     font-size: 0.8rem;
+    word-break: break-word;
+    width: 50%;
   }
 
   &__controls {
